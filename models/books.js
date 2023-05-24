@@ -1,13 +1,13 @@
 'use strict';
 
 /*
-  each cat in our database should look something like this:
+  each book in our database should look something like this:
 
-  let aCat = {
+  let abook = {
     name: 'Mr. Mistoffelees',
     color: 'black and white',
     spayNeuter: true,
-    location: 'London'
+    lobookion: 'London'
   }
 */
 
@@ -17,7 +17,7 @@ const mongoose = require('mongoose');
 // extract the schema
 const { Schema } = mongoose;
 
-// create a cat schema, define how our object should be structured
+// create a book schema, define how our object should be structured
 const bookSchema = new Schema({
   title: {type: String, required: true},
   author: {type: String, required: true},
