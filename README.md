@@ -33,3 +33,15 @@ Clone this repo to your own account with the green "Use this template" button. T
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+Name of feature: Post and delete
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5 30
+
+Finish time: 7 20
+
+Actual time needed to complete: 2 hours
+
+---------------------------------------------
