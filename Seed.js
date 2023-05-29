@@ -38,6 +38,12 @@ async function seed() {
     description: 'A mythical adventure in a magical world.',
     status: true
   });
+  await Book.create({
+    title: 'The Something of the Ring',
+    author: 'J.F.K. Tolkien',
+    description: 'Wizard makes a team and goatee guy dies',
+    status: true
+  });
   console.log('ROTK was added to the database');
   mongoose.disconnect();
 }
