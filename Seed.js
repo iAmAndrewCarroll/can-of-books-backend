@@ -9,9 +9,9 @@ mongoose.connect(process.env.DB_URL);
 const Book = require('./models/books');
 
 // this only needs to run once.
-// we don't need to continually add the same cats to the database
+// we don't need to continually add the same books to the database
 async function seed() {
-  // the structure of each cat I add has to be the same as my cat schema
+  // the structure of each book I add has to be the same as my book schema
   // title: {type: String, required: true},
   // author: {type: String, required: true},
   // description: {type: String, required: true},
