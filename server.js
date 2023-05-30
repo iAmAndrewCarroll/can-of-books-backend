@@ -70,7 +70,7 @@ async function putBooks(req, res, next) {
       overwrite: true,
 
     }
-    let updatedBook = await Book.findByIdAndPut(id, bookFormReq, options);
+    let updatedBook = await Book.findByIdAndUpdate(id, bookFormReq, options);
     res.status(200).send(updatedBook);
   } catch(err) {
     next(err)
